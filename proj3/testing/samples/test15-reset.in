@@ -1,0 +1,15 @@
+> init
+<<<
++ stat134.txt wug2.txt
+> add stat134.txt
+<<<
++ 2.txt wug3.txt
+> add stat134.txt
+<<<
+> commit "nmsl"
+<<<
+> branch what
+<<<
+> reset 232345535
+No commit with that id exists.
+<<<

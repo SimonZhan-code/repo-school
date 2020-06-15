@@ -1,0 +1,25 @@
+> init
+<<<
++ stat134.txt wug.txt
+> add stat134.txt
+<<<
+> commit "1.txt"
+<<<
+> rm stat134.txt
+<<<
+* stat134.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+stat134.txt
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+

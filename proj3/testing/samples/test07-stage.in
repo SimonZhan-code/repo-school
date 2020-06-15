@@ -1,0 +1,23 @@
+> init
+<<<
++ 1.txt wug.txt
+> add 1.txt
+<<<
+
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+1.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+D HEADER "commit [a-f0-9]+"
+D MERGE "Merge: [a-f0-9]+ [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"

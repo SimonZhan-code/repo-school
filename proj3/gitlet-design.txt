@@ -1,0 +1,22 @@
+Gitlet Design Document
+----------------------
+Blob
+Branch
+Commit
+Repo
+Node
+Main
+
+Classes and Data Structures
+---------------------------
+HashMap
+HashSet
+Arraylist
+
+Algorithms
+----------
+BFS to find splitpoint in merge
+
+Persistence
+-----------
+Merge is so hard to write

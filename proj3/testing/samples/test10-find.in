@@ -1,0 +1,25 @@
+# test add
+> init
+<<<
++ 1.txt wug.txt
+> add 1.txt
+<<<
+D UID "[a-f0-9]+"
+D HEADER "commit (${UID})"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+# Don't change anything above. These basically pattern match the expected output, and then captures each.
+> log
+===
+${HEADER}
+${DATE}
+initial commit
+<<<* #THE STAR IS IMPORTANT. make sure you have it if you run log.
+
+#These capture the desired UIDs/commit names.
+# UID of initial commit
+D UID1 "${1}"
+
+> find "initial commit"
+${UID1}
+<<<
+

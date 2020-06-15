@@ -1,0 +1,44 @@
+> init
+<<<
++ stat134.txt wug.txt
+> add stat134.txt
+<<<
+
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+stat134.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> commit "asd"
+<<<
+> branch sb
+<<<
+> status
+=== Branches ===
+*master
+sb
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+D HEADER "commit [a-f0-9]+"
+D MERGE "Merge: [a-f0-9]+ [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+D HEADER "commit [a-f0-9]+"
+D MERGE "Merge: [a-f0-9]+ [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"

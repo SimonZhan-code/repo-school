@@ -1,0 +1,15 @@
+#* java -ea tablut.Main
+# Check that simple captures work correctly.
+manual white
+manual white
+h5-6
+g5-6
+undo
+h5-6
+g5-7
+h6-7
+g7-6
+h7-6
+g6-7
+# Repeated position
+#*win+
